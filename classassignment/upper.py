@@ -1,0 +1,6 @@
+f=open("read.txt","r")
+w=open("upper.txt","w")
+d=f.read()
+e=d.upper()
+w.write(e)
+print(e)

@@ -1,0 +1,6 @@
+f=open("t.txt","r")
+w=open("s.txt","w")
+d=f.read()
+e=d.lower()
+w.write(e)
+print(e)

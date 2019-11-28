@@ -1,0 +1,6 @@
+f=open("hello.txt","r")
+w=open("swap.txt","w")
+d=f.read()
+e=d.swapcase()
+w.write(e)
+print(e)

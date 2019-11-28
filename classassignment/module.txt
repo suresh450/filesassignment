@@ -1,0 +1,21 @@
+
+
+suresh
+module counter ( clk, reset, enable, dat_out );
+  		output [15:0] dat_out;
+  		input clk, reset, enable;
+  		wire   N69, N70, N71, N72, N73, N74, N75, N76, N77, N78, N79, N80, N81, N82,
+         	n62, n63, n64, n65, n66, n67;
+
+  		EDFFX2AD \dat_out_sig_reg[0]  ( .D(N69), .E(N96), .CK(clk), .Q(dat_out[0])
+         	);
+			
+wire  dat_out_1;
+
+
+
+
+
+ 	U_submod_inst_0 sub_mod (.in1 (clk), .in2 (reset), .out1(dat_out_1));
+endmodule
+
